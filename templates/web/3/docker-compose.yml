@@ -9,7 +9,7 @@ services:
     labels:
       io.rancher.container.pull_image: always
   web:
-    image: alach1/web-app:.Values.WEB_VER
+    image: alach1/web-app:${WEB_VER}
     environment:
       APPLICATION_SECRET: QCY?tAnfk?aZ?iwr
       POSTGRES_HOST: database
