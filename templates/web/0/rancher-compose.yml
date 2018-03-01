@@ -1,13 +1,13 @@
 version: '2'
 catalog:
-  name: Nginx Application
+  name: Computer database Application
   version: v0.0.1
   questions:
   - variable: WEB_VER
-    label: Publish Ports?
+    label: Web version?
     required: true
     default: 1.0.0
-    type: String
+    type: string
 services:
   database:
     scale: 1
