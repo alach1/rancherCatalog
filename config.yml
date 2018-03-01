@@ -1,6 +1,0 @@
-name: "Nginx Application"
-name: Prometheus
-description: |
-  Nginx Web server.
-version: 3.0.0
-category: Web
