@@ -1,4 +1,6 @@
-database:
+version: '2'
+services:
+  database:
     image: postgres
     environment:
       POSTGRES_PASSWORD: mysecretpassword
