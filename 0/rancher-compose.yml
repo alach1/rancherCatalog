@@ -1,5 +1,4 @@
-version: '2'
-catalog:
+.catalog:
   name: Nginx Application
   version: v0.0.1
   questions:
